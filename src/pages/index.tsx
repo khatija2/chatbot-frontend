@@ -1,13 +1,9 @@
-import React, {useState} from 'react'
-import { type NextPage } from "next"
+import React from 'react'
 import Head from "next/head"
 import Landing from "@/components/landing"
 
 
-const index : NextPage= () => {
-
-  const [message, setMessage] = useState("loading...")
-
+const index = () => {
 
   return (
         <>

@@ -1,4 +1,4 @@
-import React, {useEffect, useState, FormEvent} from 'react'
+import React, {useState, FormEvent} from 'react'
 import {RiCloseFill} from 'react-icons/ri'
 import { IoMdSend } from "react-icons/io";
 import toast from "react-hot-toast"
