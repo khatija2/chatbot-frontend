@@ -26,7 +26,7 @@ const onSubmit = (e: FormEvent) => {
    const clientSendMessage = clientMessage
    setIsLoading(true);
    setClientMessage("")
-   fetch("http://localhost:8080/ask_chatbot", {
+   fetch("http://3.26.48.62:8080/ask_chatbot", {
       method: 'POST',
       body: JSON.stringify({
         message: clientSendMessage
